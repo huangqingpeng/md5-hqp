@@ -1,0 +1,42 @@
+{
+  "name": "md5-hqp",
+  "version": "0.1.6",
+  "description": "MD5 file in browser.",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.cjs.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "release": "standard-version"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangqingpeng/md5-hqp.git"
+  },
+  "keywords": [
+    "md5",
+    "browser",
+    "md5 file browser"
+  ],
+  "author": "huangqingpeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangqingpeng/md5-hqp/issues"
+  },
+  "homepage": "https://github.com/huangqingpeng/md5-hqp#readme",
+  "devDependencies": {
+    "rollup": "^0.66.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "standard-version": "^4.4.0"
+  },
+  "dependencies": {
+    "spark-md5": "^2.0.2"
+  }
+}
